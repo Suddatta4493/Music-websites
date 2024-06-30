@@ -1,0 +1,194 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: blue;
+}
+section a img{
+    height: 60px;
+    width:120px ;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:rgb(47, 161, 219);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+.input-group{
+    align-content: start;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+
+}
+
+body{
+    text-align: center;
+    background-color: rgb(125, 231, 173);
+}
+h1{
+    font-size: 5rem;
+    color: rgb(219, 10, 10);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 8px 0 rgb(101, 79, 226);
+}
+footer{
+    color: rgb(15, 15, 15);
+    font-family: sans-serif;
+    margin: 10% auto;
+    font-size: 3rem;
+    text-shadow: 3px 0 red;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+.red {
+  color: red;
+}
+
+.a{
+    background-image: url(images/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.b{
+    background-image: url(images/image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.c{
+    background-image: url(images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.d{
+    background-image: url(images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.e{
+    background-image: url(images/james-owen-c-NBiJrhwdM-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.f{
+    background-image: url(images/yannis-papanastasopoulos-yWF2LLan-_o-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.g{
+    background-image: url(images/dark-rider-JmVaNyemtN8-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.h{
+    background-image: url(images/yvette-de-wit-Kcx_YuUR-dw-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.i{
+    background-image: url(images/noiseporn-JNuKyKXLh8U-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.j{
+    background-image: url(images/guitarist-playing-dark-nightclub-illuminated-by-spotlight-generated-by-artificial-intelligence.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.k{
+    background-image: url(images/image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.l{
+    background-image: url(images/james-owen-c-NBiJrhwdM-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.m{
+    background-image: url(images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.n{
+    background-image: url(images/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.o{
+    background-image: url(images/marcus-neto-gioH4gHo0-g-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.p{
+    background-image: url(images/melissa-askew-AUXanrckXn0-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.q{
+    background-image: url(images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.r{
+    background-image: url(images/noiseporn-JNuKyKXLh8U-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.s{
+    background-image: url(images/yannis-papanastasopoulos-yWF2LLan-_o-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.t{
+    background-image: url(images/yvette-de-wit-Kcx_YuUR-dw-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.music{
+    margin: 10px;
+    height:200px ;
+    width:200px ;
+    background-color: white;
+    text-align: center;
+    border-radius:15px;
+    border: 10px solid rgb(16, 5, 5);
+    color: rgb(21, 218, 34);
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 2;
+    outline: none;
+    text-shadow: 4px 0 #641aec;
+}
+
+
+
+
+
+
+
